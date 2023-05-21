@@ -42,17 +42,6 @@
   margin-top: 24px;
 }
 
-.slider-range::before {
-  content: url(./image/ball.svg);
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: -10px;
-  transform: translateY(-50%);
-  width: 20px;
-  height: 25px;
-}
-
 .slider-range {
   position: relative;
   width: 100%;
