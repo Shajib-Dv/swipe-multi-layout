@@ -1,0 +1,143 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;500&family=MuseoModerno:wght@100;200;300;400;500;600;700;800&family=Open+Sans&family=Poppins:wght@500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.main-container {
+  height: 642px;
+  width: 1170px;
+  padding: 0 40px 30px 40px;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.brand-container {
+  justify-content: space-between;
+  padding: 40px 0 40px 488px;
+}
+
+.action {
+  gap: 16px;
+}
+
+.title-box {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 104px;
+  background: #eef8ff;
+  border: 1px solid #23587b;
+  box-shadow: 0px 2px 8px rgba(11, 50, 71, 0.05);
+  border-radius: 6px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: #23587b;
+}
+
+.budget-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  padding: 24px 0 16px 0;
+  color: #23587b;
+}
+
+.budget-box {
+  position: relative;
+  width: 533px;
+  height: 322px;
+  padding: 28px 24px 54px 25px;
+  background: #ffffff;
+  border: 1px solid #e2edfc;
+  box-shadow: 0px 2px 8px rgba(11, 50, 71, 0.05);
+  border-radius: 6px;
+}
+
+.budget-indictor-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.budget-indicator {
+  width: 106px;
+  height: 120px;
+  background: linear-gradient(91.03deg, #ff6d1e -4.95%, #ff7d36 99.32%);
+  border-radius: 0px 0px 8px 8px;
+}
+
+/* common styles */
+
+.text-secondary {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100%;
+  text-align: right;
+  color: #5b5b5b;
+}
+
+.text-primary {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100%;
+  text-align: right;
+  color: #ff3e3e;
+}
+
+.gray {
+  color: #5b5b5b;
+}
+.orange {
+  color: #ff823e;
+}
+
+.text-sm {
+  font-size: 14px;
+  line-height: 100%;
+}
+.font-5 {
+  font-weight: 500;
+}
+.font-6 {
+  font-weight: 600;
+}
+.pb-12 {
+  padding-bottom: 12px;
+}
+
+.top-30 {
+  margin-top: 30px;
+}
+
+.flex {
+  display: flex;
+}
+.between {
+  justify-content: space-between;
+}
+.flex-center {
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.pointer {
+  cursor: pointer;
+}
+.hr {
+  width: 438px;
+  height: 1px;
+  background-color: #120c3109;
+  border: 0 solid #120c31;
+}
